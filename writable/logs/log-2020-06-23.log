@@ -1,0 +1,200 @@
+CRITICAL - 2020-06-23 00:00:46 --> syntax error, unexpected ';', expecting ']'
+#0 D:\laragon\www\ci4_jwt\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('home')
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('home')
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-23 20:50:46 --> syntax error, unexpected '}'
+#0 D:\laragon\www\ci4_jwt\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('wilayah')
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('wilayah')
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-23 21:10:46 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:11:43 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:11:45 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:11:52 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:12:13 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:12:14 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:12:14 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:12:14 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:12:14 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:12:14 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:12:15 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:12:32 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:14:09 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:14:10 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:14:10 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:14:10 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:14:11 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:14:12 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:14:12 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:14:12 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:14:12 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:15:05 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:15:06 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:16:04 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:16:22 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:21:52 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:23:10 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:27:27 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:30:07 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:30:09 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 21:30:09 --> Call to a member function getResultArray() on null
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,32 @@
+CRITICAL - 2020-06-21 22:20:53 --> Class 'App\Controllers\Google_Client' not found
+#0 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Auth->login()
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-21 22:48:12 --> Column 'first_name' cannot be null
+#0 D:\laragon\www\ci4_jwt\system\Database\MySQLi\Connection.php(330): mysqli->query('INSERT INTO `us...')
+#1 D:\laragon\www\ci4_jwt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\laragon\www\ci4_jwt\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\laragon\www\ci4_jwt\system\Database\BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\laragon\www\ci4_jwt\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\laragon\www\ci4_jwt\app\Controllers\Auth.php(54): App\Models\Auth_model->register(Array)
+#6 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Auth->register()
+#7 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-21 22:48:15 --> Undefined offset: 1
+#0 D:\laragon\www\ci4_jwt\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 36, Array)
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 22:48:24 --> Undefined offset: 1
+#0 D:\laragon\www\ci4_jwt\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 36, Array)
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
