@@ -64,7 +64,7 @@ class Wilayahri_model extends Model{
 
     public function get_kel($id = null){
         if(!empty($id)){
-            $builder = $this->db->table('villages')->where('districts_id',$id);
+            $builder = $this->db->table('villages')->where('district_id',$id);
         }else{
             $builder = $this->db->table('villages');
         }

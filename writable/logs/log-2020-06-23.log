@@ -198,3 +198,29 @@ CRITICAL - 2020-06-23 21:30:09 --> Call to a member function getResultArray() on
 #2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 {main}
+CRITICAL - 2020-06-23 21:50:42 --> Undefined offset: 1
+#0 D:\laragon\www\ci4_jwt\app\Controllers\Wilayah.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 36, Array)
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#3 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-23 21:55:57 --> Unknown column 'districts_id' in 'where clause'
+#0 D:\laragon\www\ci4_jwt\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\ci4_jwt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\ci4_jwt\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\ci4_jwt\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\ci4_jwt\app\Models\Wilayahri_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\ci4_jwt\app\Controllers\Wilayah.php(75): App\Models\Wilayahri_model->get_kel('1102010')
+#6 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#7 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#8 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-23 23:51:52 --> Undefined variable: dat
+#0 D:\laragon\www\ci4_jwt\app\Controllers\Wilayah.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 83, Array)
+#1 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(910): App\Controllers\Wilayah->index()
+#2 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#3 D:\laragon\www\ci4_jwt\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\ci4_jwt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

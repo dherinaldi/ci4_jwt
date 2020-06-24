@@ -40,44 +40,48 @@ class Wilayah extends ResourceController
 
 		switch ($jenis) {
 			case 'prov':
+
 			if(!empty($id)){
 				$dat = $this->wil->get_provinces($id);
-				$dt = $this->wil->get_kota($id);
 			}else{
 				$dat = $this->wil->get_provinces();
 			}
+
 			break;
 
 			case 'kot':
 
-			echo 'jenis='.$jenis."&id=".$id;
 			if(!empty($id)){
 				$dat = $this->wil->get_kota($id);
 			}else{
 				$dat = $this->wil->get_kota();
 			}
 
-			
-
-			//$data = $dat->getResultArray();
-
 			break;
 
 			case 'kec':
+
+			if(!empty($id)){
+				$dat = $this->wil->get_kec($id);
+			}else{
+				$dat = $this->wil->get_kec();
+			}
 
 			break;
 
 			case 'kel':
 
+			if(!empty($id)){
+				$dat = $this->wil->get_kel($id);
+			}else{
+				$dat = $this->wil->get_kel();
+			}
+
 			break;
+
 		}
-
-		var_dump($dt->getResultArray());
-		
-
-
-
-		/*if($token){
+		$data = $dat->getResultArray();
+		if($token){
 			try {
 
 				$decoded = JWT::decode($token, $secret_key, array('HS256'));
@@ -86,7 +90,7 @@ class Wilayah extends ResourceController
                     // response true
 					$output = [
 					'message' => 'Access granted',
-					//'data'=>$data
+					'data'=>$data
 					];
 					return $this->respond($output, 200);
 				}
@@ -100,7 +104,7 @@ class Wilayah extends ResourceController
 
 				return $this->respond($output, 401);
 			}
-		}*/
+		}
 	}
 	
 }
